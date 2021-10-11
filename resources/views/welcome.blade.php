@@ -40,7 +40,7 @@
     button{
         padding:10px 20px;
         border-radius:10px;
-        background:#ffbc00;
+        background:#daa520;
         font-size:16px;
         font-weight:bold;
         float: right;

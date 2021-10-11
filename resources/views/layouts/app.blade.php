@@ -24,11 +24,24 @@
             padding:6%;
             display:flex;
             justify-content:center;
+            margin-top:20px;
+        }
+        header{
+            position:fixed;
+            width:100%;
+            top:0;
+            right:0;
+            background:#daa520;
+            border-bottom:4px solid #3c0f96;
+            box-sizing:border-box;
+            padding:10px 6%;
+            font-weight:bold;
         }
     </style>
     @yield('style')
 </head>
 <body class="main">
+    <header>Class Notifier</header>
     <main>
         @yield('content')
     </main>
